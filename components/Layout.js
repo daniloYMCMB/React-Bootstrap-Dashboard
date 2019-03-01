@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
 
-import Header from './Header'
-
 export default class Layout extends React.Component {
 
     componentDidMount() {
@@ -27,9 +25,11 @@ export default class Layout extends React.Component {
 
 						<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet" />
 
+						<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet" />
+
+
 					</Head>
 
-					<Header></Header>
 
 					
 					{children}
@@ -44,7 +44,7 @@ export default class Layout extends React.Component {
 						
 						.Layout {
 							height: 100vh;
-							font-family: 'UniSans';
+							font-family: 'Carter One', cursive;
 							font-size: 13px;
 							font-weight: bold;
 						}
@@ -64,12 +64,10 @@ export default class Layout extends React.Component {
 							font-weight: normal;
 							font-style: normal;
 						}
-
-
 			
 						.container {
 							max-width: 1200px;
-							width: 96%;
+							width: 80%;
 							margin: auto;
 						}
 
@@ -136,7 +134,6 @@ export default class Layout extends React.Component {
 						}
 
 						body {
-							background: #343a40;
 							font-family: UniSans;
 							color: white;
 						}
