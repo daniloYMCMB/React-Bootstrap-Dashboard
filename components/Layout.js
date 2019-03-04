@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
-
+import Header from './Header'
 export default class Layout extends React.Component {
 
     componentDidMount() {
@@ -23,13 +23,11 @@ export default class Layout extends React.Component {
 						<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
 						<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
 
-						<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet" />
-
 						<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet" />
 
 
-					</Head>
 
+					<Header></Header>
 
 					
 					{children}
@@ -67,7 +65,7 @@ export default class Layout extends React.Component {
 			
 						.container {
 							max-width: 1200px;
-							width: 80%;
+							width: 96%;
 							margin: auto;
 						}
 
