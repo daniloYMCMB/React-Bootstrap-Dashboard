@@ -26,8 +26,11 @@ export default class Layout extends React.Component {
 						<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet" />
 
 
+						<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet" />
 
-					<Header></Header>
+
+					</Head>
+
 
 					
 					{children}
@@ -65,7 +68,7 @@ export default class Layout extends React.Component {
 			
 						.container {
 							max-width: 1200px;
-							width: 96%;
+							width: 80%;
 							margin: auto;
 						}
 

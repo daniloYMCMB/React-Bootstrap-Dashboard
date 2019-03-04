@@ -49,7 +49,6 @@ class Game extends React.Component {
 				</div>
 
 				<style jsx global>{`
-
 						.Game {
 							background: url(/static/img/acertijo.png) center center repeat;
 							position: relative;
